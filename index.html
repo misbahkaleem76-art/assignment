@@ -1,11 +1,43 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>hello</h1> 
+
+    <header>
+        <h1>My Simple Website</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Home Page</h2>
+        <p>Welcome to my simple website created using HTML, CSS, and JavaScript.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Section</h2>
+        <p>This website is made for learning GitHub and GitHub Pages.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Section</h2>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: 0300-1234567</p>
+    </section>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
